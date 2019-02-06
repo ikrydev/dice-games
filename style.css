@@ -41,6 +41,112 @@ body {
     padding: 100px;
 }
 
+.modal {
+    padding: 30px;
+    width: 50%;
+    height: 80%;
+    top: 10%;
+    left: 25%;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+}
+
+.modal>h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.closes {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.closes>.close {
+    position: absolute;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: #eee;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.closes>.close:hover {
+    color: #EB4D4D;
+}
+
+.form-group {
+    margin-bottom: 1rem
+}
+
+.form-control {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.form-control::-ms-expand {
+    background-color: transparent;
+    border: 0
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+    opacity: 1
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.btn-start {
+    background-color: #EB3349;
+    color: #fff;
+    padding: 10px;
+    border-radius: 11px;
+}
 
 
 /**********************************************
