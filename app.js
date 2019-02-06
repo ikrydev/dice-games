@@ -40,8 +40,6 @@ document.querySelector('.btn-new').addEventListener('click', function () {
     init();
     document.querySelector('.btn-roll').style.display = 'block';
     document.querySelector('.btn-hold').style.display = 'block';
-    activePlayer === 0 ? activePlayer = 1 : activePlayer = 2;
-    document.querySelector('#name-' + activePlayer).textContent = 'PLAYER ' + activePlayer;
 });
 
 function nextPlayer() {
@@ -60,4 +58,6 @@ function init() {
     document.getElementById('score-1').textContent = '0';
     document.getElementById('current-0').textContent = '0';
     document.getElementById('current-1').textContent = '0';
+    document.getElementById('name-0').textContent = 'PLAYER 1';
+    document.getElementById('name-1').textContent = 'PLAYER 2';
 }
